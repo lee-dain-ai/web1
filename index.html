@@ -3,21 +3,65 @@
 <head>
     <title> what is VIRUS?</title>
     <meta charset="utf-8">
+    <style>
+    body{
+        margin:0;
+    }
+     a {
+        color:black;
+        text-decoration: none;
+        text-align:center;
+     }
+     h1 {
+         font-size: 50px;
+         text-align: center;
+         border-bottom:2px solid gray;
+         margin:0;
+         padding:20px;
+     }
+
+    #active{
+        color:red;
+    }
+    ol {
+        border-right:2px solid gray;
+        width:250px;
+        margin:0;
+        padding:20px;
+    }
+    #grid {
+        display:grid;
+        grid-template-columns: 300px 1fr;
+    }
+    #article {
+        padding-left : 33px;
+    }
+    @media(max-width:800px){
+        #grid{
+            display:block;
+        }   
+        ol{
+            border-right:none;
+        }
+        h1 {
+            border-bottom:none;
+        }
+    }
+</style>
 </head>
 <body>
     <h1><a href="index.html">VIRUS</a></h1>
+    <div id="grid">
     <ol>
         <li> <a href="1.html" target="_blank">COVID19(코로나 바이러스 감염증)</li></a>
         <li> <a href="2.html" target="_blank">MERS(중동 호흡기 증후군)</li></a>
         <li> <a href="3.html" target="_blank">SARS(중증 급성 호흡기 증후군)</li></a>
     </ol>
-
+<div id="article">
     <h2>VIRUS </h2>
     <h3>바이러스란?</a></h3>
 
     <img src="VIRUS.jpg" width="450">
-
-
     <p> <strong>1. 정의</p><p>바이러스</strong>는 단백질 껍질에 동봉된 RNA 또는 DNA 게놈으로 구성된 현미경 전염입자이다.</p>
     <p style="margin-top:40px;">
     <strong>2. 구조</p></strong>
@@ -27,5 +71,18 @@
      가지기도 한다. 위의 그림에서 하단의 바이러스가 지질로 이루어진 층을 가지는 
      Enveloped Virus(외피로 둘러싸인 바이러스)이다. 이 지질층은 숙주세포의 세포막에서
       유래한 것이다.</p>
+      <p>
+        <script>
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://web1-qohogbmlqa.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </p>
+ </div>
+</div>     
 </body>
 </html>
